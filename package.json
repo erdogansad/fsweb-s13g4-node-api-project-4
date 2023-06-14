@@ -1,0 +1,30 @@
+{
+  "name": "fsweb-s13g4-node-api-project-4",
+  "version": "1.0.0",
+  "description": "Bu challengeda, Heroku'ya _deployable_ olan basit bir Express uygulaması oluşturacaksınız. \r Bu, `package.json` dosyasında uygun bir `start` betiğine sahip olduğu ve port numarasının sabit kodlanmak yerine ortamdan alındığı anlamına gelir. \r Uygulamanızı Heroku'ya dağıtmaktan çekinmeyin, ancak bunun artık ücretsiz bir hizmet olmadığını unutmayın.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erdogansad/fsweb-s13g4-node-api-project-4.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erdogansad/fsweb-s13g4-node-api-project-4/issues"
+  },
+  "homepage": "https://github.com/erdogansad/fsweb-s13g4-node-api-project-4#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "nanoid": "^3.3.4",
+    "nodemon": "^2.0.22"
+  }
+}
